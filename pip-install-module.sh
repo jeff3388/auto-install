@@ -1,4 +1,5 @@
 sudo apt-get -y install python3-pip
+sudo pip3 install --upgrade pip
 yes w | pip install jupyter --user
 yes w | pip install selenium --user
 apt-get install xvfb
