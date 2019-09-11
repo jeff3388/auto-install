@@ -1,14 +1,13 @@
 sudo apt-get install python3-pip
 sudo pip3 install --upgrade pip
-yes w | pip install jupyter --user
-yes w | pip install selenium --user
+pip install jupyter
+pip install selenium
 apt-get install xvfb
-yes w | pip install pyvirtualdisplay --user
+pip install pyvirtualdisplay
+pip install beautifulsoup4
+pip install fake-useragent
 
-yes w | pip install beautifulsoup4 --user
-yes w | pip install fake-useragent --user
-
-yes w | pip install python3-xlib --user 
+pip install python3-xlib 
 sudo apt-get -y install scrot 
 sudo apt-get -y install python-tk 
 sudo apt-get -y install python3-dev 
